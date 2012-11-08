@@ -1,0 +1,15 @@
+destination: ./_site
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+
+title : 3 IBC
+
+menu :
+  - url: /index.html
+    title: Home
+    tagline: This is 3IBC
+  - url: /contacts.html
+    title: Contacts
+    tagline: Contacts and links
+  - url: /facilities.html
+    title: Facilities
+    tagline: Local facilities
