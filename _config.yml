@@ -7,9 +7,12 @@ menu :
   - url: /index.html
     title: Home
     tagline: This is 3IBC
-  - url: /contacts.html
-    title: Contacts
-    tagline: Contacts and links
+  - url: /manuals.html
+    title: Manuals
+    tagline: Manuals for white goods and other equipment
   - url: /facilities.html
     title: Facilities
     tagline: Local facilities
+  - url: /contacts.html
+    title: Contacts
+    tagline: Contacts and links
