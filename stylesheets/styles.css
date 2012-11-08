@@ -806,32 +806,32 @@ section #title p {
   font-size: 18px;
   text-align: center;
 }
-section #footle .credits {
+section .credits {
   font-size: 11px;
   font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   color: #696969;
   margin-top: -10px;
 }
-section #footle .credits.left {
+section .credits.left {
   float: left;
 }
-section #footle .credits.right {
+section .credits.right {
   float: right;
 }
 
 @media print, screen and (max-width: 720px) {
-  #footle .credits {
+  credits {
     display: block;
     width: 100%;
     line-height: 30px;
     text-align: center;
   }
-  #footle .credits .left {
+  credits .left {
     float: none;
     display: block;
   }
-  #footle .credits .right {
+  credits .right {
     float: none;
     display: block;
   }
