@@ -1,0 +1,11 @@
+          <p>
+          {% for menu_item in site.menu %}
+
+            {% if page.url == menu_item.url %}
+              {{menu_item.title}}
+            {% else %}
+              <a href=".{{ menu_item.url }}" title="{{menu_item.tagline}}">{{menu_item.title}}</a>
+            {% endif %}
+            {% if forloop.last %}{% else %}&nbsp;&nbsp;&nbsp;&nbsp;{% endif %}
+          {% endfor%}          
+          </p>

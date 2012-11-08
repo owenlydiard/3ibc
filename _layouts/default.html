@@ -5,7 +5,7 @@ group: navigation
 <!doctype html>
 <html>
   <head>
-    <title>3IBC.com - {{page.title}}</title>
+    <title>{{ site.title }} - {{ page.title }}</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <link rel="stylesheet" href="stylesheets/styles.css">
@@ -24,6 +24,10 @@ group: navigation
   <body>
     <div class="wrapper">
       <section>
+        <div id="title">
+          <h1>{{ site.title }} - {{ page.title }}</h1>
+          {% include menu.html %}
+        </div>
 
 {{ content }}
 
